@@ -1,4 +1,4 @@
-layout: sidebar
+layout: stacked
 style: light
 
 plugins:
@@ -35,7 +35,7 @@ projects:
   # hackerrank: your_username
   # instagram: jcheon428
   # keybase: your_username
-  linkedin: https://www.linkedin.com/in/jiwoo-cheon-0a56a919a/
+  linkedin: jiwoo-cheon-0a56a919a
   # mastodon: your_username
   # medium: your_username
   # stackoverflow: your_user_id
