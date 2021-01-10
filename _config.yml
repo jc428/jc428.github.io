@@ -28,7 +28,7 @@ projects:
     projects:
     # - repo-name
 
-# social_media:
+social_media:
   # behance: your_username
   # dribbble: your_username
   # facebook: your_username
@@ -46,11 +46,12 @@ projects:
   # website: http://your_website_url
   # youtube: your_username
 
-topics:
-  # - name: CSS
-  #   web_url: https://github.com/topics/css
-  #   image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
+educations:
+  - program: BSc Computer Science
+    institute: Cornell University College of Engineering
+    dates: August 2019 - Present
+    image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Cornell_University_seal.svg/800px-Cornell_University_seal.svg.png
 
-  - name: Web design
+  # - name: Web design
 
   # - 
