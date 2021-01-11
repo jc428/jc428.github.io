@@ -5,14 +5,16 @@
     <!-- <div class="icon">
       <img src="{{ education.image_url }}" alt="{{ education.institution }}">
     </div> -->
+    <p style="margin : 0 0 0 0">
     <div class="info">
       <p class="text-normal"> {{ experience.title}}</p>
       <p class="text-bold"> {{ experience.company}}</p>
       <p class="text-normal"> {{ experience.dates}}</p>
       </p>
     </div>
+    </p>
     <br>
+    {% endfor %}
   </ul>
-  {% endfor %}
   </ul>
 </div>
