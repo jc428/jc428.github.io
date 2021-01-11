@@ -2,17 +2,16 @@
 <div class="d-flex flex-wrap gutter-condensed mb-4 text-list">
   {% for experience in site.experience %}
   <ul>
-    <li class="card">
-      <!-- <div class="icon">
+    <!-- <div class="icon">
       <img src="{{ education.image_url }}" alt="{{ education.institution }}">
     </div> -->
-      <div class="info">
-        <p class="text-normal"> {{ experience.title}}</p>
-        <p class="text-bold"> {{ experience.company}}</p>
-        <p class="text-normal"> {{ experience.dates}}</p>
-        </p>
-      </div>
-    </li>
+    <div class="info">
+      <p class="text-normal"> {{ experience.title}}</p>
+      <p class="text-bold"> {{ experience.company}}</p>
+      <p class="text-normal"> {{ experience.dates}}</p>
+      </p>
+    </div>
+    <br>
   </ul>
   {% endfor %}
   </ul>
