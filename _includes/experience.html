@@ -1,17 +1,19 @@
 <h2 {% if site.style == 'dark' %}class="text-white" {% endif %}>Experience</h2>
 <div class="d-flex flex-wrap gutter-condensed mb-4 text-list">
   {% for experience in site.experience %}
-  <div class="card">
-    <!-- <div class="icon">
+  <ul>
+    <li class="card">
+      <!-- <div class="icon">
       <img src="{{ education.image_url }}" alt="{{ education.institution }}">
     </div> -->
-    <div class="info">
-      <p class="text-normal"> {{ experience.title}}</p>
-      <p class="text-bold"> {{ experience.company}}</p>
-      <p class="text-normal"> {{ experience.dates}}</p>
-      </p>
-    </div>
-  </div>
+      <div class="info">
+        <p class="text-normal"> {{ experience.title}}</p>
+        <p class="text-bold"> {{ experience.company}}</p>
+        <p class="text-normal"> {{ experience.dates}}</p>
+        </p>
+      </div>
+    </li>
+  </ul>
   {% endfor %}
   </ul>
 </div>
