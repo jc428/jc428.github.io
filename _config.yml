@@ -48,10 +48,12 @@ social_media:
 
 education:
   - program: BSc Computer Science
-    institute: Cornell University College of Engineering
+    institution: Cornell University College of Engineering
     dates: August 2019 - Present
     image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Cornell_University_seal.svg/800px-Cornell_University_seal.svg.png
 
-  # - name: Web design
-
-  # - 
+experience:
+  - title: Software Engineering Intern
+    company: Smith Micro Software
+    dates: May 2020 - August 2020
+    image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Cornell_University_seal.svg/800px-Cornell_University_seal.svg.png
