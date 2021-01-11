@@ -18,6 +18,12 @@
   </div>
   {% endif %}
 
+  {% if site.experience %}
+  <div class="my-6">
+    {% include experience.html %}
+  </div>
+  {% endif %}
+
   {% if site.education %}
   <div class="my-6">
     {% include education.html %}
@@ -50,6 +56,10 @@
 
       {% if site.topics %}
       {% include interests.html %}
+      {% endif %}
+
+      {% if site.experience %}
+      {% include experience.html %}
       {% endif %}
 
       {% if site.education %}
