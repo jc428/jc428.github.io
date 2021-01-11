@@ -1,8 +1,13 @@
 <h2 {% if site.style == 'dark' %}class="text-white" {% endif %}>Education</h2>
-<div class="d-flex flex-wrap gutter-condensed mb-4">
-  {% for education in site.educations %}
-  <div class="col-6 col-md-12 col-lg-6 col-xl-4 mb-3">
-    {% include education-card.html %}
-  </div>
-  {% endfor %}
+<div class="d-flex flex-wrap gutter-condensed mb-4 text-list">
+  <ul>
+    {% for education in site.education %}
+    <p style="margin : 0 0 0 0" ; class="text-normal">
+    <p style="margin-left : 25px"> {{ education.program}}</p>
+    <p style="margin-left : 25px"> {{ education.institution}}</p>
+    <p style="margin-left : 25px"> {{ education.date}}</p>
+    </p>
+    <br>
+    {% endfor %}
+  </ul>
 </div>
